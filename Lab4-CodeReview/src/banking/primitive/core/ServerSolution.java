@@ -8,6 +8,13 @@ import java.io.*;
 
 import banking.primitive.core.Account.State;
 
+/**
+* Class: ServerSolution.java
+*
+* Description: Manages a collection of Accounts in a Map.
+*              Creates, destroys, and sets the status of these Accounts.
+*/
+
 class ServerSolution implements AccountServer {
 
 	static String fileName = "accounts.ser";
